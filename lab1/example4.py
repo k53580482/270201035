@@ -1,0 +1,5 @@
+price = int(input("What is your normal phone price ? : " ))
+discount = float(input("What is your discount ? : "))
+phone_piece = int(input("How many phones do you have ? : "))
+all_phones_price = ( price * phone_piece ) * (1 - discount)
+print(all_phones_price)
